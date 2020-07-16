@@ -10,6 +10,7 @@
     <RootNamespace>MultiCommandConsole.Services</RootNamespace>
     <AssemblyName>MultiCommandConsole.Services</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>7.3</LangVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
