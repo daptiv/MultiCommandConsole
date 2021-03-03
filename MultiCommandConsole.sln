@@ -1,18 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{76E3772D-A493-4D70-A99A-7FA8AE665940}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+	EndProjectSection
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiCommandConsole", "MultiCommandConsole\MultiCommandConsole.csproj", "{C8A4A5F7-C8CE-4F59-8583-5701EBCA2D68}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiCommandConsole.Tests", "MultiCommandConsole.Tests\MultiCommandConsole.Tests.csproj", "{F04D3E8A-AA7E-43DC-88F1-0F77C802B10D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiCommandConsole.Example", "MultiCommandConsole.Example\MultiCommandConsole.Example.csproj", "{9088F12D-7294-42E0-A3F5-F80F564CBBA8}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D7492921-80CB-469E-AD89-9066F1CFB8CD}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiCommandConsole.Services", "MultiCommandConsole.Services\MultiCommandConsole.Services.csproj", "{E8A8DD54-9E8F-41CC-9D01-9A39C761B666}"
 EndProject
@@ -74,5 +75,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57A3125E-4790-4532-AD02-54999328BE80}
 	EndGlobalSection
 EndGlobal

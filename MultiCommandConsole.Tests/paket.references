@@ -1,0 +1,6 @@
+Common.Logging
+Common.Logging.Core
+FluentAssertions
+Moq
+NUnit
+ObjectPrinter
