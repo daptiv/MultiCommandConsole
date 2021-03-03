@@ -1,12 +1,13 @@
-source https://api.nuget.org/v3/index.json
-
-storage: none
 framework: net48
-nuget Common.Logging 3.0.0 restriction: >= net40
-nuget Common.Logging.Core 3.0.0 restriction: >= net40
-nuget FluentAssertions 3.2.1 restriction: >= net40
-nuget log4net 2.0.3 restriction: >= net40
-nuget Moq 4.2.1409.1722 restriction: >= net40
+content: none
+
+source http://artrepo.daptiv.com/artifactory/api/nuget/nuget-virtual
+
+nuget Common.Logging 3.0.0
+nuget Common.Logging.Core 3.0.0
+nuget FluentAssertions 3.2.1
+nuget log4net 2.0.3
+nuget Moq 4.2.1409.1722
 nuget NuGet.CommandLine
-nuget NUnit 2.6.3 restriction: >= net40
-nuget ObjectPrinter 2.0.29.0 restriction: >= net40
+nuget NUnit 2.6.3
+nuget ObjectPrinter 2.0.29.0

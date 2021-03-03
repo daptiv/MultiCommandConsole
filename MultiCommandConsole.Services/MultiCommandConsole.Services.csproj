@@ -87,7 +87,7 @@
     <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And $(TargetFrameworkVersion) == 'v4.8'">
       <ItemGroup>
         <Reference Include="Common.Logging">
-          <HintPath>..\..\..\Users\vagrant\.nuget\packages\common.logging\3.0.0\lib\net40\Common.Logging.dll</HintPath>
+          <HintPath>..\packages\Common.Logging\lib\net40\Common.Logging.dll</HintPath>
           <Private>True</Private>
           <Paket>True</Paket>
         </Reference>
@@ -98,7 +98,7 @@
     <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And $(TargetFrameworkVersion) == 'v4.8'">
       <ItemGroup>
         <Reference Include="Common.Logging.Core">
-          <HintPath>..\..\..\Users\vagrant\.nuget\packages\common.logging.core\3.0.0\lib\net40\Common.Logging.Core.dll</HintPath>
+          <HintPath>..\packages\Common.Logging.Core\lib\net40\Common.Logging.Core.dll</HintPath>
           <Private>True</Private>
           <Paket>True</Paket>
         </Reference>
@@ -109,7 +109,7 @@
     <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And $(TargetFrameworkVersion) == 'v4.8'">
       <ItemGroup>
         <Reference Include="ObjectPrinter">
-          <HintPath>..\..\..\Users\vagrant\.nuget\packages\objectprinter\2.0.29\lib\Net40\ObjectPrinter.dll</HintPath>
+          <HintPath>..\packages\ObjectPrinter\lib\Net40\ObjectPrinter.dll</HintPath>
           <Private>True</Private>
           <Paket>True</Paket>
         </Reference>

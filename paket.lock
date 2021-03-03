@@ -1,13 +1,13 @@
-STORAGE: NONE
+CONTENT: NONE
 RESTRICTION: == net48
 NUGET
-  remote: https://api.nuget.org/v3/index.json
-    Common.Logging (3.0)
+  remote: http://artrepo.daptiv.com/artifactory/api/nuget/nuget-virtual
+    Common.Logging (3.0.0)
       Common.Logging.Core (>= 3.0)
-    Common.Logging.Core (3.0)
+    Common.Logging.Core (3.0.0)
     FluentAssertions (3.2.1)
     log4net (2.0.3)
     Moq (4.2.1409.1722)
     NuGet.CommandLine (5.8.1)
     NUnit (2.6.3)
-    ObjectPrinter (2.0.29)
+    ObjectPrinter (2.0.29.0)
